@@ -124,18 +124,35 @@ Enable: php_opcache.dll
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MhYRVn5.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Go to C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php and rename the file ost-config.php then right click it go to properties and then security. Go to permissions disable its inheritence then add a principal and give everyone read/write permission.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tttew8D.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Install Heidi SQL and use root/password1 as the login and create a database called osTicket. Do this by right clicking unnamed then going to create new and then database.<br \>
+https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit
+  
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/VZ2KRmQ.png"/>
+</p>
+<p>
+Go to OsTicket in your web browser continue the setup by adding in these texts for these fields: <br \>
+  MySQL Database: osTicker<br />
+  MySQL Username: root <br \>
+  MySQL Password: password1
+  <br \>
+This should complete the installationa and prompt you to begin the cleanup process which is to delete C:\inetpub\wwwroot\osTicket\setup and to set permissions to Read only for C:\inetpub\wwwroot\osTicket\include\ost-config.php This concludes the setup demonstration for osTicket.
+</p>
+<br />
+
+
 
