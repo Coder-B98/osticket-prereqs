@@ -77,7 +77,9 @@ This will download a ZIP file go to downloads in file explore right click on the
 <img src="https://i.imgur.com/urpGkfs.png"/>
 </p>
 <p>
-Install VC_Redist and MySQL. The links will be below. When the setup wizard for MySQL launches do a typial and standard setup. Then set the password to be password1.
+Install VC_Redist and MySQL. The links will be below. When the setup wizard for MySQL launches do a typial and standard setup. Then set the password to be password1. <br \>
+VC: https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view?usp=share_link
+MySQL: https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view?usp=share_link
 </p>
 <br />
 
@@ -85,31 +87,39 @@ Install VC_Redist and MySQL. The links will be below. When the setup wizard for 
 <img src="https://i.imgur.com/RtJ3X2v.png"/>
 </p>
 <p>
-Go to the Windows search bar and type in Internet Information Services to open its management window. Click on PHP manager and then register PHP with the directory shown in the above screen shot.
+Go to the Windows search bar and type in Internet Information Services to open its management window. Click on PHP manager and then register PHP with the directory shown in the above screen shot. After registering PHP reload IIS.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cfzo00u.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Use the installation file link to install OsTicket and extract the upload folder to c:\inetpub\wwwroot  and rename it to osTicket then reload IIS. Be sure to be running IIS as an administrator <br \>
+Installation File: https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/T85wCxZ.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+If every step was done correctly then you should see this screen when you click browse 80 on IIS after going to the Default Website branch on the left of the IIS managaer. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/o5jn685.png"/>
+</p>
+<p>
+Go to the PHP manager and click on enable extensions and enable the extensions listed below by scrolling to it, right clicking and clicking enable rule: <br \>
+Enable: php_imap.dll
+  <br \>
+Enable: php_intl.dll
+  <br \>
+Enable: php_opcache.dll
+
+  
 </p>
 <br />
 
