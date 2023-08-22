@@ -50,9 +50,9 @@ Open a web browser and type in 127.0.0.1 and if the installation worked then thi
 </p>
 <p>
 Install PHP Manager band be sure to click download anyway. then install the rewrite module and do the same. Use these links: <br />
-  PHP Manager: https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view?usp=share_link
+   <a href= "https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view?usp=share_link"> PHP Manager </a>
   <br />
-  Rewrite module: https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view?usp=share_link
+  <a href= "https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view?usp=share_link"> Rewrite Module </a>
 </p>
 <br />
 
@@ -61,7 +61,7 @@ Install PHP Manager band be sure to click download anyway. then install the rewr
 </p>
 <p>
 Create a folder in the C drive called PHP this is directory C:\PHP. Next install PHP 7.3.8 by using the link below: <br />
-  https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view?usp=share_link
+  <a href="https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view?usp=share_link"> PHP 7.3.8</a>
 </p>
 <br />
 
@@ -78,8 +78,8 @@ This will download a ZIP file go to downloads in file explore right click on the
 </p>
 <p>
 Install VC_Redist and MySQL. The links will be below. When the setup wizard for MySQL launches do a typial and standard setup. Then set the password to be password1. <br \>
-VC: https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view?usp=share_link
-MySQL: https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view?usp=share_link
+<a href="https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view?usp=share_link"> VC </a> <br \>
+<a href="https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view?usp=share_link"> MySQL </a> 
 </p>
 <br />
 
@@ -96,7 +96,7 @@ Go to the Windows search bar and type in Internet Information Services to open i
 </p>
 <p>
 Use the installation file link to install OsTicket and extract the upload folder to c:\inetpub\wwwroot  and rename it to osTicket then reload IIS. Be sure to be running IIS as an administrator <br \>
-Installation File: https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
+<a href="https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">Installation File </a>
 </p>
 <br />
 
@@ -136,7 +136,7 @@ Go to C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php and rename the fi
 </p>
 <p>
 Install Heidi SQL and use root/password1 as the login and create a database called osTicket. Do this by right clicking unnamed then going to create new and then database.<br \>
-https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit
+<a href="https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit"> HeidiSQL </a>
   
 </p>
 <br />
