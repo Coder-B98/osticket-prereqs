@@ -146,7 +146,7 @@ Install Heidi SQL and use root/password1 as the login and create a database call
 </p>
 <p>
 Go to OsTicket in your web browser continue the setup by adding in these texts for these fields: <br \>
-  MySQL Database: osTicker<br />
+  MySQL Database: osTicket<br />
   MySQL Username: root <br \>
   MySQL Password: password1
   <br \>
